@@ -1,0 +1,23 @@
+Desafío 2 🎯
+
+a. Debes pensar y escribir un algoritmo que nos permita guardar tipos
+de datos numéricos en dos variables, y que calcule el valor de su
+suma, resta, producto y división.
+b. Además, si el resultado de la suma es mayor a 5, debes colocar una
+variable lógica como verdadera.
+
+Desarrollo
+a.  Entero numero1 = 2
+	Entero numero2 = 1
+	bandera = falso
+	resultado = 0
+	
+	resultado = numero1+numero2
+	resultado = numero1-numero2
+	resultado = numero1*numero2
+	resultado = numero1/numero2 con numero2 != 0
+	
+b.  si resultado es > a 5
+	la bandera va a ser verdadera
+	si no es > a 5
+	la bandera va a ser falsa
