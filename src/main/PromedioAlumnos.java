@@ -7,11 +7,10 @@ public class PromedioAlumnos {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int cantNotas = 3, promedio=0, valor=0;
-		String nombreAlum = "";
 		Scanner scanner = new Scanner(System.in);
 		
 		System.out.println("Ingrese el nombre del alumno");
-		nombreAlum = scanner.next();
+		String nombreAlum = scanner.next();
 		
 		for(int i=0; i<cantNotas; i++) {			
 		System.out.println("Digitalice la nota " + (i+1));
