@@ -2,6 +2,22 @@ package main;
 import java.util.Scanner;
 
 public class OperacMatematicas {
+	
+	public int sumar(int a, int b) {
+		return a+b;
+	}
+	
+	public int restar(int a, int b) {
+		return a-b;
+	}
+	
+	public int multiplicar(int a, int b) {
+		return a*b;
+	}
+	
+	public int dividir(int a, int b) throws ArithmeticException {
+		return a/b;
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -23,5 +39,7 @@ public class OperacMatematicas {
 		
 		scanner.close();
 	}
+	
 
 }
+
