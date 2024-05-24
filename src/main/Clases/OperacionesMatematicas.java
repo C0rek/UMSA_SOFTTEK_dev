@@ -14,7 +14,7 @@ public class OperacionesMatematicas {
 		return a*b;
 	}
 	
-	public int dividir(int a, int b){
+	public int dividir(int a, int b) throws ArithmeticException{
 		return a/b;
 	}
 	

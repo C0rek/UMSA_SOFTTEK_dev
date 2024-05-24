@@ -1,5 +1,6 @@
 package main.Clases;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class MenuCalculadora {
@@ -54,10 +55,12 @@ public class MenuCalculadora {
 					System.exit(0);
 				}
 				default:
-					System.out.println("Operador invalido. Compruebe usando una opcion valida");
-					throw new IllegalArgumentException("Unexpected value: " + i);	
+					throw new IllegalArgumentException("Valor invalido " + i);	
 				}	
 				System.out.println("Respuesta: " + rta);	
+			
+			} catch (java.util.InputMismatchException e) {
+				System.out.println("Error: Debe ingresar un valor numerico");
 			} catch (Exception e) {
 				System.out.println("Error: " + e.getMessage());
 			} finally {
